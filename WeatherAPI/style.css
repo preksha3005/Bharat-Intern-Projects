@@ -1,0 +1,93 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background-color: rgb(24, 23, 23);
+}
+.card
+{
+    position: relative;
+    top: 10vh;
+    left: 35vw;
+    width: 26vw;
+    height: 76vh;
+    padding: 20px 30px;
+    background: linear-gradient(120deg,#04d49d,#362c71);
+    border-radius: 30px;
+    color: white;
+}
+.searchCard
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.searchCard input
+{
+    width: 20vw;
+    height: 30px;
+    border: 0;
+    outline: 0;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 20px;
+}
+.searchCard button
+{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+}
+.simg
+{
+    width: 20px;
+    align-items: center;
+}
+.weather
+{
+    text-align: center;
+    display: none;
+}
+.weather.active
+{
+    display: block;
+}
+.temp
+{
+    font-size: 35px;
+    font-weight: 1000;
+}
+.city
+{
+    font-size: 22px;
+    font-weight: 800;
+}
+.desc
+{
+    display: flex;
+    justify-content: space-between;
+}
+.cols img
+{
+    width: 50px;
+}
+.cols
+{
+    display: flex;
+}
+.cols p
+{
+    position: relative;
+    left: 13px;
+}
+.humidity,.wind
+{
+    font-size: 30px;
+    font-weight: 800;
+}
