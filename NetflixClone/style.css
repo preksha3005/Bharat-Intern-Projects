@@ -185,41 +185,6 @@ body {
     font-weight: 900;
     margin: 2px;
 }
-
-/* .wrap {
-    background-color: rgb(60, 58, 58);
-    width: 100vw;
-    height: 58vh;
-    padding: 10px;
-    position: relative;
-    top: 15vh;
-    left: -33vw;
-} */
-
-/* .ques,.ans {
-    font-family: 'Anton', sans-serif;
-    font-family: 'Fugaz One', sans-serif;
-    font-family: 'Martel Sans', sans-serif;
-    font-size: 24px;
-}
-.toggle-cond
-{
-    font-size: 20px;
-    position: relative;
-    left: 77.1vw;
-    bottom: 45.7vh;
-    outline: none;
-    background: transparent;
-    color: white;
-    z-index: 1004;
-} */
-/* .header
-{
-    width: 62vw;
-    font-size: 36px;
-    position: relative;
-    left: 16vw;
-} */
 .wrap
 {
     position: relative;
